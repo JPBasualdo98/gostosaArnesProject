@@ -1,13 +1,16 @@
 @import '../variables/vars';
 
-
-
 .bodyStyle{
     background: radial-gradient(rgb(115, 0, 85),rgb(30, 0, 30));
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: $blancoLetra ;
 }
-
-h1{
-    color: red;
+/* TITULOS PERSONALIZADOS */
+.title__style__logo{
+    font-family: 'Courier New', Courier, monospace;
+    word-spacing: 0px;
+}
+.title__style__ar{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
 }

@@ -11,6 +11,7 @@
     font-weight: lighter;
     text-decoration-line: unset;
 }
+
 .displayH{
     background-color: rgb(45, 45, 45);
     height: auto;
@@ -56,11 +57,12 @@ div h2{
 /*ARTICLE*/
 .articleHeader{
     text-align: center;
-    letter-spacing: 25px;
+    letter-spacing: 20px;
     color:blanchedalmond;
-    word-spacing: 10px;
-    text-decoration: underline;
-    margin-bottom: 10px;
+    word-spacing: 12px;
+    text-decoration: none;
+    margin: 20px 30px 10px 40px;
+    font-weight: 200;
     }
 
 .articleA{
