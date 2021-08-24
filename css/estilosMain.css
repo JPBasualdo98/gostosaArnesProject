@@ -1,0 +1,12 @@
+/* Colores */
+/* Modificadores de IMG */
+.bodyStyle {
+  background: radial-gradient(#730055, #1e001e);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: blanchedalmond;
+}
+
+h1 {
+  color: red;
+}
+/*# sourceMappingURL=estilosMain.css.map */
