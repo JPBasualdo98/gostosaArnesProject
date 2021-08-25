@@ -1,5 +1,4 @@
-/* Colores */
-/* Modificadores de IMG */
+/* SECCIÓN INDEX */
 .bodyStyle {
   background: radial-gradient(#730055, #1e001e);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,5 +14,18 @@
 .title__style__ar {
   font-family: 'Courier New', Courier, monospace;
   font-weight: 500;
+}
+
+/* SECCIÓN GALERÍA */
+.title__galeria {
+  margin: 20px 0px 20px 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 500;
+}
+
+.mod__div__h2 {
+  height: 20px;
+  width: auto;
+  color: #2d2d2d;
 }
 /*# sourceMappingURL=estilosMain.css.map */

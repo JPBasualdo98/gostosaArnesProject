@@ -96,12 +96,11 @@ section h2{
 }
 /*Galeria Style*/
 .titleStyle{
-    margin-top: 30px;
     text-align: center;
     word-spacing: 2px;
     letter-spacing: 12px;
     color: blanchedalmond;
-    text-decoration: underline;
+    text-decoration: none;
 }
 .clasePadre{
     display: flex;
@@ -136,7 +135,8 @@ section h2{
 /*Ofertas Style*/
 .ofertasDisplay {
     display: grid;
-    grid-template-areas: "titulo titulo titulo"
+    grid-template-areas:
+        "titulo titulo titulo"
         "producto1 producto2 producto3";
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 1fr 2fr 1fr;
