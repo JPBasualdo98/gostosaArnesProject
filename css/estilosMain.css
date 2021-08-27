@@ -21,15 +21,23 @@
 .title__style__logo, .title__style__ar, .title_N3 {
   font-family: 'Courier New', Courier, monospace;
   word-spacing: 0px;
+  font-size: 40px;
 }
 
 .title__style__ar, .title_N3 {
   font-weight: 500;
+  font-size: 30px;
 }
 
 .title_N3 {
   font-size: 30px;
-  margin-left: 85px;
+  margin-left: 115px;
+}
+
+.title_Box {
+  height: 40px;
+  width: 200px;
+  background-color: #1e001e;
 }
 
 /* config. imagen */
@@ -37,7 +45,6 @@
   height: 250px;
   width: 250px;
   border-radius: 5px;
-  border: 5px blanchedalmond;
 }
 
 /* Estilos de articulos/titulos */

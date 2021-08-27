@@ -9,15 +9,22 @@
 .title__style__logo{
     font-family: 'Courier New', Courier, monospace;
     word-spacing: 0px;
+    font-size: 40px
 }
 .title__style__ar{
     @extend .title__style__logo; 
     font-weight: 500;
+    font-size: 30px
 }
 .title_N3{
     @extend .title__style__ar;
     font-size: 30px;
-    margin-left: 85px;
+    margin-left: 115px;
+}
+.title_Box{
+    height: 40px;
+    width: 200px;
+    background-color: $violetaOscuro
 }
 /* config. imagen */
 .imgSet{
