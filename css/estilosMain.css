@@ -18,13 +18,12 @@
 }
 
 /* Títulos Personalizados */
-.title__style__logo {
+.title__style__logo, .title__style__ar, .title_N3 {
   font-family: 'Courier New', Courier, monospace;
   word-spacing: 0px;
 }
 
 .title__style__ar, .title_N3 {
-  font-family: 'Courier New', Courier, monospace;
   font-weight: 500;
 }
 
@@ -33,6 +32,7 @@
   margin-left: 85px;
 }
 
+/* config. imagen */
 .imgSet {
   height: 250px;
   width: 250px;
@@ -40,13 +40,26 @@
   border: 5px blanchedalmond;
 }
 
+/* Estilos de articulos/titulos */
 .textBg {
   background-color: #2d2d2d;
   text-align: center;
+  word-spacing: 5px;
 }
 
 .fondoVioleta {
   background-color: #1e001e;
+}
+
+.italic {
+  font-style: italic;
+  text-decoration: none;
+  color: blanchedalmond;
+}
+
+.italic:hover {
+  text-decoration: underline;
+  color: pink;
 }
 
 /* Colores */
