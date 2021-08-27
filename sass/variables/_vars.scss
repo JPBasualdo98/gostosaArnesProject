@@ -2,7 +2,24 @@
 $blancoLetra: blanchedalmond;
 $rosaLink: pink;
 $gris: rgb(45, 45, 45);
+$violetaOscuro:rgb(30, 0, 30);
+$violetaClaro:rgb(115, 0, 85);
 
-/* Modificadores de IMG */
-$imgRedondeada: border-radius=15px
+/*Fuentes*/
+$fuente_1: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+$fuente_2: 'Courier New', Courier, monospace;
 
+/* Título Estándar */
+.titulo_Predet{
+    word-spacing: 7px;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration-line: none;
+    font-family: $fuente_2;
+}
+/* Medida Estándar img */
+@mixin imgS($height,$width,$borderRds) {
+    height: $height;
+    width: $width;
+    border-radius: $borderRds;
+}

@@ -5,7 +5,7 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: $blancoLetra ;
 }
-/* TITULOS PERSONALIZADOS */
+/* Títulos Personalizados */
 .title__style__logo{
     font-family: 'Courier New', Courier, monospace;
     word-spacing: 0px;
@@ -13,4 +13,20 @@
 .title__style__ar{
     font-family: 'Courier New', Courier, monospace;
     font-weight: 500;
+}
+.title_N3{
+    @extend .title__style__ar;
+    font-size: 30px;
+    margin-left: 85px;
+}
+.imgSet{
+    @include imgS (250px,250px,5px);
+    border: 5px $blancoLetra;
+}
+.textBg{
+    background-color: $gris;
+    text-align: center;
+}
+.fondoVioleta{
+    background-color: $violetaOscuro;
 }

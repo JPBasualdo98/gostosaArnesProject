@@ -1,9 +1,8 @@
 @import '../variables/vars';
 
 .title__galeria{
-    margin: 20px 0px 20px 20px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 500;
+    @extend .titulo_Predet;
+    margin: 20px 0px 20px 10px;
 }
 
 .mod__div__h2{

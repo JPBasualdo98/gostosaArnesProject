@@ -1,26 +1,68 @@
-/* SECCIÓN INDEX */
+@charset "UTF-8";
+/* Colores */
+/*Fuentes*/
+/* Título Estándar */
+.titulo_Predet, .title__galeria {
+  word-spacing: 7px;
+  font-size: 20px;
+  font-weight: lighter;
+  text-decoration-line: none;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* Medida Estándar img */
 .bodyStyle {
   background: radial-gradient(#730055, #1e001e);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: blanchedalmond;
 }
 
-/* TITULOS PERSONALIZADOS */
+/* Títulos Personalizados */
 .title__style__logo {
   font-family: 'Courier New', Courier, monospace;
   word-spacing: 0px;
 }
 
-.title__style__ar {
+.title__style__ar, .title_N3 {
   font-family: 'Courier New', Courier, monospace;
   font-weight: 500;
 }
 
-/* SECCIÓN GALERÍA */
+.title_N3 {
+  font-size: 30px;
+  margin-left: 85px;
+}
+
+.imgSet {
+  height: 250px;
+  width: 250px;
+  border-radius: 5px;
+  border: 5px blanchedalmond;
+}
+
+.textBg {
+  background-color: #2d2d2d;
+  text-align: center;
+}
+
+.fondoVioleta {
+  background-color: #1e001e;
+}
+
+/* Colores */
+/*Fuentes*/
+/* Título Estándar */
+.titulo_Predet, .title__galeria {
+  word-spacing: 7px;
+  font-size: 20px;
+  font-weight: lighter;
+  text-decoration-line: none;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* Medida Estándar img */
 .title__galeria {
-  margin: 20px 0px 20px 20px;
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: 500;
+  margin: 20px 0px 20px 10px;
 }
 
 .mod__div__h2 {
