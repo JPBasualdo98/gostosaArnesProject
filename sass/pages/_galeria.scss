@@ -1,5 +1,13 @@
 @import '../variables/vars';
 
+/* estilos de títulos */
+.titleStyle{
+    text-align: center;
+    word-spacing: 2px;
+    letter-spacing: 12px;
+    color:$blancoLetra;
+    text-decoration: none;
+}
 .title__galeria{
     @extend .titulo_Predet;
     margin: 20px 0px 20px 10px;

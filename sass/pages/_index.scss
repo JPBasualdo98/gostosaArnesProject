@@ -1,13 +1,59 @@
 @import '../variables/vars';
 
 .bodyStyle{
-    background: radial-gradient(rgb(115, 0, 85),rgb(30, 0, 30));
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: $violetaClaro,$violetaOscuro;
+    font-family:$fuente_1;
     color: $blancoLetra ;
 }
-/* Títulos Personalizados */
+/* NAV-BAR */
+.displayH{
+    background-color:$gris;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top:0;
+    z-index:999; 
+}
+#displayNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+    font-family:$fuente_2;
+}
+.tamanioDivNav{
+    width: auto;
+    height: auto;
+    justify-content: space-evenly;
+}
+.textNav{
+    text-decoration: none;
+    color: $blancoLetra;
+    font-size: 20px;
+    font-family:$fuente_2;
+    letter-spacing: 10px;
+}
+.textNav:hover{
+    text-decoration:underline;
+    color:$rosaLink;
+}
+/*CARRUSEL*/
+.setImg{        
+    height: 350px;
+    width: 400px;
+}
+/* TÍTULOS PERSONALIZADOS */
+.titleStyle{
+    word-spacing: 7px;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration-line: none;
+}
 .title__style__logo{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: $fuente_1;
     word-spacing: 0px;
     font-size: 40px
 }
@@ -26,11 +72,58 @@
     width: 200px;
     background-color: $violetaOscuro
 }
-/* config. imagen */
+/* posicionamiento de los "div-h2" */
+.divH2{
+    margin-right: 120px;
+}
+/*ARTICLE*/
+.article_Header{
+    text-align: center;
+    letter-spacing: 20px;
+    color:$blancoLetra;
+    word-spacing: 12px;
+    text-decoration: none;
+    margin: 20px 30px 10px 40px;
+    font-weight: 200;
+    }
+.article_Div{
+    width: 70px;
+    height: 30px;
+    background-color:$gris;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.articleA{
+    text-align: center;
+    word-spacing: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.sectionDivSet{
+    display: flex;
+    justify-content: space-evenly;
+}
+section h2{
+    text-align:center;
+    margin-top: 45px;
+    margin-bottom: 10px;
+    word-spacing: 2px;
+    letter-spacing: 5px;
+}
+.modAli1{
+    margin-right: 75px;
+}
+.modAli2{
+    margin-left: 75px;
+}
+/* CONFIG. IMG DE MODELOS */
 .imgSet{
     @include imgS (250px,250px,5px);
 }
-/* Estilos de articulos/titulos */
+/* ESTILOS DE ARTÍCULOS/TÍTULOS */
 .textBg{
     background-color: $gris;
     text-align: center;

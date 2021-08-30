@@ -12,12 +12,59 @@
 
 /* Medida Estándar img */
 .bodyStyle {
-  background: radial-gradient(#730055, #1e001e);
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background: #730055, #1e001e;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   color: blanchedalmond;
 }
 
+/* Nav-Bar */
+.displayH {
+  background-color: #2d2d2d;
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+#displayNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 50px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.tamanioDivNav {
+  width: auto;
+  height: auto;
+  justify-content: space-evenly;
+}
+
+.textNav {
+  text-decoration: none;
+  color: blanchedalmond;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: 10px;
+}
+
+.textNav:hover {
+  text-decoration: underline;
+  color: pink;
+}
+
 /* Títulos Personalizados */
+.titleStyle {
+  word-spacing: 7px;
+  font-size: 20px;
+  font-weight: lighter;
+  text-decoration-line: none;
+}
+
 .title__style__logo, .title__style__ar, .title_N3 {
   font-family: 'Courier New', Courier, monospace;
   word-spacing: 0px;
@@ -38,6 +85,11 @@
   height: 40px;
   width: 200px;
   background-color: #1e001e;
+}
+
+/* posicionamiento de los "div-h2" */
+.divH2 {
+  margin-right: 120px;
 }
 
 /* config. imagen */
