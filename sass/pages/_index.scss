@@ -1,7 +1,7 @@
 @import '../variables/vars';
 
 .bodyStyle{
-    background: $violetaClaro,$violetaOscuro;
+    background: radial-gradient($violetaClaro),($violetaOscuro);
     font-family:$fuente_1;
     color: $blancoLetra ;
 }
@@ -73,8 +73,11 @@
     background-color: $violetaOscuro
 }
 /* posicionamiento de los "div-h2" */
-.divH2{
-    margin-right: 120px;
+.margin_1{
+    margin-left: 100px;
+}
+.margin_2{
+    margin-right: 70px;
 }
 /*ARTICLE*/
 .article_Header{
