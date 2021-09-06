@@ -5,6 +5,18 @@
     color: blanchedalmond;
 }
 /*NAV-HEADER*/
+.box_Logo{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-items: end;
+    align-items: center;
+}
+#logo{
+    height: 45px;
+    width: 45px;
+    border-radius: 25px;
+}
 .titleStyle{
     word-spacing: 7px;
     font-size: 20px;
@@ -12,46 +24,36 @@
     text-decoration-line: none;
 }
 
-.displayH{
+.display_H{
     background-color: rgb(45, 45, 45);
-    height: auto;
-    width: auto;
+    height: 50px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     position: sticky;
     top:0;
-    z-index:999; 
-}
+    z-index:999;
+}/* 
 div H2{
     margin-right: 70px;
-}
-#displayNav{
+} */
+#display_Nav{
+    height: 50px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    gap: 50px;
-    font-family:'Courier New', Courier, monospace
+    gap: 35px;
 }
 .tamanioDivNav{
     width: auto;
     height: auto;
     justify-content: space-evenly;
 }
-.textNav{
-    text-decoration: none;
-    color: blanchedalmond;
-    font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    letter-spacing: 10px;
-}
-.textNav:hover{
-    text-decoration:underline;
-    color: pink;
-}
 
 /*CARRUSEL*/
-.setImg{        
+.set_Img{        
     height: 450px;
     width: 400px;
     
@@ -85,13 +87,6 @@ div H2{
 .sectionDivSet{
     display: flex;
     justify-content: space-evenly;
-}
-section h2{
-    text-align:center;
-    margin-top: 45px;
-    margin-bottom: 10px;
-    word-spacing: 2px;
-    letter-spacing: 5px;
 }
 .modAli1{
     margin-right: 75px;

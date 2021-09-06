@@ -12,12 +12,12 @@
 
 /* Medida Estándar img */
 .bodyStyle {
-  background: #730055, #1e001e;
+  background: radial-gradient(#730055), #1e001e;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   color: blanchedalmond;
 }
 
-/* Nav-Bar */
+/* NAV-BAR */
 .displayH {
   background-color: #2d2d2d;
   height: auto;
@@ -27,6 +27,7 @@
   position: sticky;
   top: 0;
   z-index: 999;
+  overflow: auto;
 }
 
 #displayNav {
@@ -35,7 +36,7 @@
   justify-content: space-evenly;
   align-items: center;
   gap: 50px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .tamanioDivNav {
@@ -48,7 +49,7 @@
   text-decoration: none;
   color: blanchedalmond;
   font-size: 20px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Courier New", Courier, monospace;
   letter-spacing: 10px;
 }
 
@@ -57,7 +58,13 @@
   color: pink;
 }
 
-/* Títulos Personalizados */
+/*CARRUSEL*/
+.setImg {
+  height: 350px;
+  width: 400px;
+}
+
+/* TÍTULOS PERSONALIZADOS */
 .titleStyle {
   word-spacing: 7px;
   font-size: 20px;
@@ -66,7 +73,7 @@
 }
 
 .title__style__logo, .title__style__ar, .title_N3 {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   word-spacing: 0px;
   font-size: 40px;
 }
@@ -88,18 +95,71 @@
 }
 
 /* posicionamiento de los "div-h2" */
-.divH2 {
-  margin-right: 120px;
+.margin_1 {
+  margin-left: 100px;
 }
 
-/* config. imagen */
+.margin_2 {
+  margin-right: 70px;
+}
+
+/*ARTICLE*/
+.article_Header {
+  text-align: center;
+  letter-spacing: 20px;
+  color: blanchedalmond;
+  word-spacing: 12px;
+  text-decoration: none;
+  margin: 20px 30px 10px 40px;
+  font-weight: 200;
+}
+
+.article_Div {
+  width: 70px;
+  height: 30px;
+  background-color: #2d2d2d;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.articleA {
+  text-align: center;
+  word-spacing: 5px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.sectionDivSet {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+section h2 {
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 10px;
+  word-spacing: 2px;
+  letter-spacing: 5px;
+}
+
+.modAli1 {
+  margin-right: 75px;
+}
+
+.modAli2 {
+  margin-left: 75px;
+}
+
+/* CONFIG. IMG DE MODELOS */
 .imgSet {
   height: 250px;
   width: 250px;
   border-radius: 5px;
 }
 
-/* Estilos de articulos/titulos */
+/* ESTILOS DE ARTÍCULOS/TÍTULOS */
 .textBg {
   background-color: #2d2d2d;
   text-align: center;
@@ -133,6 +193,15 @@
 }
 
 /* Medida Estándar img */
+/* estilos de títulos */
+.titleStyle {
+  text-align: center;
+  word-spacing: 2px;
+  letter-spacing: 12px;
+  color: blanchedalmond;
+  text-decoration: none;
+}
+
 .title__galeria {
   margin: 20px 0px 20px 10px;
 }
@@ -141,5 +210,13 @@
   height: 20px;
   width: auto;
   color: #2d2d2d;
+}
+
+#footerStyle {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  text-decoration: none;
+  margin-top: 140px;
 }
 /*# sourceMappingURL=estilosMain.css.map */
