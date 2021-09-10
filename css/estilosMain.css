@@ -18,7 +18,7 @@
 }
 
 /* NAV-BAR */
-.displayH {
+.display_H {
   background-color: #2d2d2d;
   height: auto;
   width: auto;
@@ -30,30 +30,33 @@
   overflow: auto;
 }
 
-#displayNav {
+#display_Nav {
+  height: 50px;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  gap: 50px;
-  font-family: "Courier New", Courier, monospace;
+  gap: 30px;
+  overflow: auto;
 }
 
 .tamanioDivNav {
   width: auto;
   height: auto;
   justify-content: space-evenly;
+  overflow: auto;
 }
 
-.textNav {
+.text_Nav {
   text-decoration: none;
   color: blanchedalmond;
   font-size: 20px;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   letter-spacing: 10px;
 }
 
-.textNav:hover {
+.text_Nav:hover {
   text-decoration: underline;
   color: pink;
 }
@@ -72,35 +75,25 @@
   text-decoration-line: none;
 }
 
-.title__style__logo, .title__style__ar, .title_N3 {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  word-spacing: 0px;
-  font-size: 40px;
-}
-
 .title__style__ar, .title_N3 {
   font-weight: 500;
   font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .title_N3 {
   font-size: 30px;
-  margin-left: 115px;
+  word-spacing: 10px;
+}
+
+.title_N3_Box {
+  background-color: #1e001e;
 }
 
 .title_Box {
   height: 40px;
   width: 200px;
   background-color: #1e001e;
-}
-
-/* posicionamiento de los "div-h2" */
-.margin_1 {
-  margin-left: 100px;
-}
-
-.margin_2 {
-  margin-right: 70px;
 }
 
 /*ARTICLE*/
@@ -131,6 +124,7 @@
   margin-top: 10px;
 }
 
+/* Sección con imagenes */
 .sectionDivSet {
   display: flex;
   justify-content: space-evenly;
@@ -144,12 +138,23 @@ section h2 {
   letter-spacing: 5px;
 }
 
-.modAli1 {
-  margin-right: 75px;
+.contenedor_titulos {
+  height: 70px;
+  width: 80%;
 }
 
-.modAli2 {
-  margin-left: 75px;
+.titulo_1 {
+  padding-top: 5px;
+  padding-right: 250px;
+}
+
+.titulo_2 {
+  padding-bottom: 40px;
+}
+
+.titulo_3 {
+  padding-bottom: 80px;
+  padding-left: 150px;
 }
 
 /* CONFIG. IMG DE MODELOS */
@@ -161,12 +166,18 @@ section h2 {
 
 /* ESTILOS DE ARTÍCULOS/TÍTULOS */
 .textBg {
-  background-color: #2d2d2d;
+  background-color: #1e001e;
   text-align: center;
   word-spacing: 5px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
 }
 
-.fondoVioleta {
+.violeta_Title {
+  background-color: #1e001e;
+}
+
+.caja_titulo {
   background-color: #1e001e;
 }
 

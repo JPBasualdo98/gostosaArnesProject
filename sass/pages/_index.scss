@@ -2,11 +2,11 @@
 
 .bodyStyle{
     background: radial-gradient($violetaClaro),($violetaOscuro);
-    font-family:  $fuente_2;
+    font-family:  $fuente_1;
     color: $blancoLetra ;
 }
 /* NAV-BAR */
-.displayH{
+.display_H{
     background-color:$gris;
     height: auto;
     width: auto;
@@ -31,15 +31,16 @@
     width: auto;
     height: auto;
     justify-content: space-evenly;
+    overflow: auto;
 }
-.textNav{
+.text_Nav{
     text-decoration: none;
     color: $blancoLetra;
     font-size: 20px;
-    font-family: $fuente_2;
+    font-family: $fuente_1;
     letter-spacing: 10px;
 }
-.textNav:hover{
+.text_Nav:hover{
     text-decoration:underline;
     color:$rosaLink;
 }
@@ -57,12 +58,17 @@
 }
 .title__style__ar{
     font-weight: 500;
-    font-size: 30px
+    font-size: 30px;
+    font-family: $fuente_2
 }
 .title_N3{
     @extend .title__style__ar;
     font-size: 30px;
-    margin-left: 115px;
+    word-spacing: 10px;
+}
+.title_N3_Box{
+    background-color: $violetaOscuro;
+    
 }
 .title_Box{
     height: 40px;
@@ -95,6 +101,7 @@
     font-size: 16px;
     margin-top: 10px;
 }
+/* Sección con imagenes */
 .sectionDivSet{
     display: flex;
     justify-content: space-evenly;
@@ -106,11 +113,21 @@ section h2{
     word-spacing: 2px;
     letter-spacing: 5px;
 }
-.modAli1{
-    margin-right: 75px;
+.contenedor_titulos{
+    
+    height:70px;
+    width: 80%;
 }
-.modAli2{
-    margin-left: 75px;
+.titulo_1{
+    padding-top: 5px;
+    padding-right: 250px
+}
+.titulo_2{
+    padding-bottom: 40px;
+}
+.titulo_3{
+    padding-bottom: 80px;
+    padding-left: 150px
 }
 /* CONFIG. IMG DE MODELOS */
 .imgSet{
@@ -118,12 +135,18 @@ section h2{
 }
 /* ESTILOS DE ARTÍCULOS/TÍTULOS */
 .textBg{
-    background-color: $gris;
+    background-color: $violetaOscuro;
     text-align: center;
     word-spacing: 5px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
 }
-.fondoVioleta{
+.violeta_Title{
+    background-color:$violetaOscuro;
+}
+.caja_titulo{
     background-color: $violetaOscuro;
+
 }
 .italic{
     font-style: $italica;
