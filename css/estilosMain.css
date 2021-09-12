@@ -1,20 +1,6 @@
 @charset "UTF-8";
-/* Colores */
-/*Fuentes*/
-/* Título Estándar */
-.titulo_Predet, .title__galeria {
-  word-spacing: 7px;
-  font-size: 20px;
-  font-weight: lighter;
-  text-decoration-line: none;
-  font-family: "Courier New", Courier, monospace;
-}
-
-/* Medida Estándar img */
 .bodyStyle {
-  background: radial-gradient(#730055), #1e001e;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  color: blanchedalmond;
+  background: radial-gradient(#730055), #0f000f;
 }
 
 /* NAV-BAR */
@@ -41,7 +27,7 @@
   overflow: auto;
 }
 
-.tamanioDivNav {
+.tamanio_Div_Nav {
   width: auto;
   height: auto;
   justify-content: space-evenly;
@@ -61,124 +47,24 @@
   color: pink;
 }
 
-/*CARRUSEL*/
-.setImg {
-  height: 350px;
-  width: 400px;
+/* MEDIDA CARRUSEL */
+.set_Img_Car {
+  height: 470px;
+  width: 450;
 }
 
-/* TÍTULOS PERSONALIZADOS */
-.titleStyle {
-  word-spacing: 7px;
-  font-size: 20px;
-  font-weight: lighter;
-  text-decoration-line: none;
-}
-
-.title__style__ar, .title_N3 {
-  font-weight: 500;
-  font-size: 30px;
-  font-family: "Courier New", Courier, monospace;
-}
-
-.title_N3 {
-  font-size: 30px;
-  word-spacing: 10px;
-}
-
-.title_N3_Box {
-  background-color: #1e001e;
-}
-
-.title_Box {
-  height: 40px;
-  width: 200px;
-  background-color: #1e001e;
-}
-
-/*ARTICLE*/
-.article_Header {
+/*ARTÍCULO*/
+.text_Bg {
   text-align: center;
-  letter-spacing: 20px;
-  color: blanchedalmond;
-  word-spacing: 12px;
-  text-decoration: none;
-  margin: 20px 30px 10px 40px;
-  font-weight: 200;
-}
-
-.article_Div {
-  width: 70px;
-  height: 30px;
-  background-color: #2d2d2d;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.articleA {
-  text-align: center;
-  word-spacing: 5px;
-  font-size: 16px;
-  margin-top: 10px;
-}
-
-/* Sección con imagenes */
-.sectionDivSet {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-section h2 {
-  text-align: center;
-  margin-top: 45px;
-  margin-bottom: 10px;
-  word-spacing: 2px;
-  letter-spacing: 5px;
-}
-
-.contenedor_titulos {
-  height: 70px;
-  width: 80%;
-}
-
-.titulo_1 {
-  padding-top: 5px;
-  padding-right: 250px;
-}
-
-.titulo_2 {
-  padding-bottom: 40px;
-}
-
-.titulo_3 {
-  padding-bottom: 80px;
-  padding-left: 150px;
-}
-
-/* CONFIG. IMG DE MODELOS */
-.imgSet {
-  height: 250px;
-  width: 250px;
+  overflow: auto;
+  transform: translateY(25px);
   border-radius: 5px;
-}
-
-/* ESTILOS DE ARTÍCULOS/TÍTULOS */
-.textBg {
-  background-color: #1e001e;
-  text-align: center;
-  word-spacing: 5px;
+  font-size: 18px;
+  word-spacing: 8px;
   margin-bottom: 20px;
   padding-bottom: 10px;
-}
-
-.violeta_Title {
-  background-color: #1e001e;
-}
-
-.caja_titulo {
-  background-color: #1e001e;
+  font-family: "Courier New", Courier, monospace;
+  background-color: #730055;
 }
 
 .italic {
@@ -192,18 +78,71 @@ section h2 {
   color: pink;
 }
 
-/* Colores */
-/*Fuentes*/
-/* Título Estándar */
-.titulo_Predet, .title__galeria {
-  word-spacing: 7px;
-  font-size: 20px;
-  font-weight: lighter;
-  text-decoration-line: none;
+/* TÍTULO */
+.title_N3_Box {
+  width: 800px;
+  height: 40px;
+  margin-left: 270px;
+  transform: translateY(52px);
+  background-color: #1e001e;
+  border-radius: 3px;
+}
+
+.title_N3 {
+  word-spacing: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  font-size: 30px;
   font-family: "Courier New", Courier, monospace;
 }
 
-/* Medida Estándar img */
+/* SECCIÓN CON IMÁGENES */
+.section_Img_Set {
+  display: flex;
+  justify-content: space-evenly;
+  transform: translateY(100px);
+}
+
+.img_Baby_Killer {
+  border: 1px #730055;
+}
+
+.titulo_BK {
+  font-family: "Courier New", Courier, monospace;
+  transform: translateX(-50px);
+}
+
+.img_Afrodita {
+  border-color: #730055;
+}
+
+.titulo_AF {
+  font-family: "Courier New", Courier, monospace;
+  transform: translateX(-30px);
+}
+
+.img_Madonna {
+  border-color: #730055;
+}
+
+.titulo_MD {
+  font-family: "Courier New", Courier, monospace;
+  transform: translateX(15px);
+}
+
+/* MEDIDA ESTÁNDAR PARA IMG DE MODELOS + ANIMACIÓN*/
+.img_Set {
+  height: 250px;
+  width: 250px;
+  border-radius: 5px;
+}
+
+.img_Move:hover {
+  transform: translateY(-25px);
+  transition: 2s;
+}
+
 /* estilos de títulos */
 .titleStyle {
   text-align: center;
@@ -213,21 +152,11 @@ section h2 {
   text-decoration: none;
 }
 
-.title__galeria {
-  margin: 20px 0px 20px 10px;
-}
-
-.mod__div__h2 {
-  height: 20px;
-  width: auto;
-  color: #2d2d2d;
-}
-
 #footerStyle {
   display: flex;
   justify-content: center;
   justify-content: space-evenly;
   text-decoration: none;
-  margin-top: 140px;
+  margin-top: 220px;
 }
 /*# sourceMappingURL=estilosMain.css.map */

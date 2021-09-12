@@ -1,9 +1,7 @@
 @import '../variables/vars';
 
 .bodyStyle{
-    background: radial-gradient($violetaClaro),($violetaOscuro);
-    font-family:  $fuente_1;
-    color: $blancoLetra ;
+    background: radial-gradient($violetaClaro),($violetaOscuro_2);
 }
 /* NAV-BAR */
 .display_H{
@@ -27,7 +25,7 @@
     gap: 30px;
     overflow: auto;
 }
-.tamanioDivNav{
+.tamanio_Div_Nav{
     width: auto;
     height: auto;
     justify-content: space-evenly;
@@ -44,109 +42,23 @@
     text-decoration:underline;
     color:$rosaLink;
 }
-/*CARRUSEL*/
-.setImg{        
-    height: 350px;
-    width: 400px;
+/* MEDIDA CARRUSEL */
+.set_Img_Car{
+    height: 470px;
+    width: 450;
 }
-/* TÍTULOS PERSONALIZADOS */
-.titleStyle{
-    word-spacing: 7px;
-    font-size: 20px;
-    font-weight: lighter;
-    text-decoration-line: none;
-}
-.title__style__ar{
-    font-weight: 500;
-    font-size: 30px;
-    font-family: $fuente_2
-}
-.title_N3{
-    @extend .title__style__ar;
-    font-size: 30px;
-    word-spacing: 10px;
-}
-.title_N3_Box{
-    background-color: $violetaOscuro;
-    
-}
-.title_Box{
-    height: 40px;
-    width: 200px;
-    background-color: $violetaOscuro
-}
-/*ARTICLE*/
-.article_Header{
+/*ARTÍCULO*/
+.text_Bg{
     text-align: center;
-    letter-spacing: 20px;
-    color:$blancoLetra;
-    word-spacing: 12px;
-    text-decoration: none;
-    margin: 20px 30px 10px 40px;
-    font-weight: 200;
-    }
-.article_Div{
-    width: 70px;
-    height: 30px;
-    background-color:$gris;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
-}
-.articleA{
-    text-align: center;
-    word-spacing: 5px;
-    font-size: 16px;
-    margin-top: 10px;
-}
-/* Sección con imagenes */
-.sectionDivSet{
-    display: flex;
-    justify-content: space-evenly;
-}
-section h2{
-    text-align:center;
-    margin-top: 45px;
-    margin-bottom: 10px;
-    word-spacing: 2px;
-    letter-spacing: 5px;
-}
-.contenedor_titulos{
-    
-    height:70px;
-    width: 80%;
-}
-.titulo_1{
-    padding-top: 5px;
-    padding-right: 250px
-}
-.titulo_2{
-    padding-bottom: 40px;
-}
-.titulo_3{
-    padding-bottom: 80px;
-    padding-left: 150px
-}
-/* CONFIG. IMG DE MODELOS */
-.imgSet{
-    @include imgS (250px,250px,5px);
-}
-/* ESTILOS DE ARTÍCULOS/TÍTULOS */
-.textBg{
-    background-color: $violetaOscuro;
-    text-align: center;
-    word-spacing: 5px;
+    overflow: auto;
+    transform: translateY(25px);
+    border-radius: 5px;
+    font-size: 18px;
+    word-spacing: 8px;
     margin-bottom: 20px;
     padding-bottom: 10px;
-}
-.violeta_Title{
-    background-color:$violetaOscuro;
-}
-.caja_titulo{
-    background-color: $violetaOscuro;
-
+    font-family: $fuente_2;
+    background-color: $violetaClaro;
 }
 .italic{
     font-style: $italica;
@@ -156,4 +68,58 @@ section h2{
 .italic:hover{
     text-decoration: underline;
     color: $rosaLink;
+}
+/* TÍTULO */
+.title_N3_Box{
+    width: 800px;
+    height: 40px;
+    margin-left: 270px;
+    transform: translateY(52px);
+    background-color: $violetaOscuro;
+    border-radius: 3px;
+}
+.title_N3{
+    word-spacing: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    font-size: 30px;
+    font-family: $fuente_2;
+}
+
+/* SECCIÓN CON IMÁGENES */
+.section_Img_Set{
+    display: flex;
+    justify-content: space-evenly;
+    transform: translateY(100px);
+}
+.img_Baby_Killer{
+    border: 1px $violetaClaro;
+}
+.titulo_BK{
+    font-family: $fuente_2;
+    transform: translateX(-50px);
+
+}
+.img_Afrodita{
+    border-color:$violetaClaro;
+}
+.titulo_AF{
+    font-family: $fuente_2;
+    transform: translateX(-30px);
+}
+.img_Madonna{
+    border-color:$violetaClaro;
+}
+.titulo_MD{
+    font-family: $fuente_2;
+    transform: translateX(15px)
+}
+/* MEDIDA ESTÁNDAR PARA IMG DE MODELOS + ANIMACIÓN*/
+.img_Set{
+    @include imgS (250px,250px,5px);
+}
+.img_Move:hover{
+    transform:translateY(-25px);
+    transition:2s
 }
