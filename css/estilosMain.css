@@ -47,10 +47,15 @@
   color: pink;
 }
 
-/* MEDIDA CARRUSEL */
+/*CARRUSEL */
 .set_Img_Car {
-  height: 470px;
+  height: 550px;
   width: 450;
+}
+
+.letra_Car {
+  color: #1e001e;
+  font-family: "Courier New", Courier, monospace;
 }
 
 /*ARTÍCULO*/
@@ -143,20 +148,89 @@
   transition: 2s;
 }
 
-/* estilos de títulos */
-.titleStyle {
-  text-align: center;
-  word-spacing: 2px;
-  letter-spacing: 12px;
-  color: blanchedalmond;
-  text-decoration: none;
+/* SECCIÓN GALERÍA */
+/* Título */
+.align_Box, .align_Box_2 {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  width: auto;
+  padding-top: 20px;
 }
 
+.box_Title_Gal {
+  height: 30px;
+  width: 350px;
+  background-color: #1e001e;
+  transform: translateY(20px);
+  border-radius: 3px;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+}
+
+.title_Gal {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+  text-align: center;
+}
+
+/* Sección modelos */
+.img_Display {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.tarjeta_Img {
+  background-color: #1e001e;
+  border-radius: 5px;
+  width: 250px;
+  height: auto;
+}
+
+/* Lista */
+.nombre_Position {
+  text-align: center;
+}
+
+.item_Symbol {
+  list-style-type: circle;
+}
+
+/* Botones */
+.button_Align {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.button_1 {
+  height: 40px;
+  width: 180px;
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: pink;
+  background-color: #0f000f;
+  border-style: double;
+  border-radius: 3px;
+}
+
+/* Sección arneses inferiores */
+.align_Box_2 {
+  padding-top: 10x;
+}
+
+.div_Pad {
+  padding-top: 15px;
+}
+
+/* FOOTER */
 #footerStyle {
   display: flex;
   justify-content: center;
   justify-content: space-evenly;
   text-decoration: none;
   margin-top: 220px;
+  background-color: #2d2d2d;
 }
 /*# sourceMappingURL=estilosMain.css.map */

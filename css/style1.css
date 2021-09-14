@@ -105,11 +105,7 @@
     color: blanchedalmond;
     text-decoration: none;
 }
-.clasePadre{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
+
 .imageneStyle{
     width: 250px;
     height: 250px;
@@ -117,9 +113,7 @@
     padding: 15px;
     }
 
-.itemSy{
-    list-style-type:square
-}
+
 .hxPosition{
     margin-left: 20px;
 }

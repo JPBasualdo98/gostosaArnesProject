@@ -42,10 +42,15 @@
     text-decoration:underline;
     color:$rosaLink;
 }
-/* MEDIDA CARRUSEL */
+/*CARRUSEL */
 .set_Img_Car{
-    height: 470px;
+    height: 550px;
     width: 450;
+}
+
+.letra_Car{
+    color: $violetaOscuro;
+    font-family: $fuente_2 ;
 }
 /*ARTÍCULO*/
 .text_Bg{
@@ -123,3 +128,4 @@
     transform:translateY(-25px);
     transition:2s
 }
+

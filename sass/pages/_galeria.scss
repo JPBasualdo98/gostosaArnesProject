@@ -1,11 +1,70 @@
 @import '../variables/vars';
 
-/* estilos de títulos */
-.titleStyle{
+/* SECCIÓN GALERÍA */
+/* Título */
+.align_Box{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: auto;
+    padding-top: 20px;
+}
+.box_Title_Gal{
+    height: 30px;
+    width: 350px;
+    background-color: $violetaOscuro;
+    transform: translateY(20px);
+    border-radius: 3px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+.title_Gal{
+    font-family: $fuente_2;
+    font-size: 25px;
     text-align: center;
-    word-spacing: 2px;
-    letter-spacing: 12px;
-    color:$blancoLetra;
-    text-decoration: none;
+}
+/* Sección modelos */
+.img_Display{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.tarjeta_Img{
+    background-color:$violetaOscuro;
+    border-radius: 5px;
+    width: 250px;
+    height: auto;
+}
+/* Lista */
+.nombre_Position{
+    text-align: center;
+}
+.item_Symbol{
+    list-style-type:circle;
+}
+/* Botones */
+.button_Align{
+    display: flex;
+    justify-content: center;
+    padding-bottom:10px;
+}
+.button_1{
+    height: 40px;
+    width: 180px;
+    font-size: 25px;
+    font-family:$fuente_3;
+    color:$rosaLink;
+    background-color:$violetaOscuro_2;
+    border-style: double;
+    border-radius: 3px;
+}
+/* Sección arneses inferiores */
+
+.align_Box_2{
+    @extend .align_Box;
+    padding-top: 10x;
+}
+.div_Pad{
+    padding-top: 15px;
 }
 
