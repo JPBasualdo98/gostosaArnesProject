@@ -5,18 +5,7 @@
     color: blanchedalmond;
 }
 /*NAV-HEADER*/
-.box_Logo{
-    width: auto;
-    height: auto;
-    display: flex;
-    justify-items: end;
-    align-items: center;
-}
-#logo{
-    height: 45px;
-    width: 45px;
-    border-radius: 25px;
-}
+
 .titleStyle{
     word-spacing: 7px;
     font-size: 20px;
@@ -127,32 +116,4 @@
     color: pink;
 }
 /*Ofertas Style*/
-.ofertasDisplay {
-    display: grid;
-    grid-template-areas:
-        "titulo titulo titulo"
-        "producto1 producto2 producto3";
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 1fr 2fr 1fr;
-}
 
-.ofertasDisplay>div {
-    border: 2px solid black;
-}
-
-.titulo {
-    grid-area: titulo;
-}
-
-.producto1 {
-    grid-area: producto1;
-
-}
-
-.producto2 {
-    grid-area: producto2;
-}
-
-.producto3 {
-    grid-area: producto3;
-}

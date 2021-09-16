@@ -1,0 +1,71 @@
+@import '../variables/vars';
+
+/* SECCIÓN OFERTAS */
+
+/* Título */
+.align_Box_Of{
+    @extend .align_Box
+}
+
+.box_Title_Of{
+    font-size: 25px;
+    @extend .box_Title_Gal
+}
+
+.title_Of{
+    font-family: $fuente_2;
+    @extend .title_Gal;
+    word-spacing: 5px;
+    letter-spacing: 8px;
+}
+/* Tarjeta y clases de imgs */
+.tarjeta_Img_Doble{
+    height: 500px;
+    width: 800px;
+    background-color: $violetaOscuro;
+    border-radius: 5px;
+    transform: translateX(250px);
+}
+.img_Move_2a:hover{
+    transform: translateX(35px);
+    transition: 2s;
+}
+.img_Move_2b:hover{
+    transform: translateX(-35px);
+    transition: 2s;
+}
+.align_Modelos{
+    display: flex;
+    justify-content: space-evenly;
+}
+.align_Mas{
+    padding-top:85px;
+}
+.clase_Mas{
+    font-size: 60px;
+    font-family: $fuente_3;
+    color: $violetaClaro;
+}
+.box_Display{
+    display: flex;
+    padding-top: 10px;
+}
+.sd_Box{
+    transform: translateX(80px);
+    background-color: $violetaClaro;
+    height: 35px;
+    border-radius: 3px
+    ;
+}
+.lf_Box{
+    transform: translateX(320px);
+    background-color: $violetaClaro;
+    border-radius: 3px;
+    height: 35px;
+}
+.titulo_Style{
+    font-size: 25px;
+    font-family: $fuente_2;
+    font-weight: 400;
+    padding-right: 15px;
+}
