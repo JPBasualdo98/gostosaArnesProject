@@ -135,7 +135,26 @@
 .img_Set{
     @include imgS (250px,250px,5px);
 }
+.img_Move{
+    transition: transform 2s, border-style 2s ,border-color 4s;
+}
 .img_Move:hover{
     transform:translateY(-25px);
-    transition:2s
+    border-style: solid;
+    border-color: $violetaClaro_2;
+}
+@keyframes efecto_color{
+    0%{color: $blancoLetra;}
+    20%{color: $rosaLink;}
+    40%{color:$rosaLink}
+    60%{color: $violetaClaro_2;}
+    80%{color: $violetaClaro_2;}
+    100%{color:$rosaLink}
+}
+.efecto_Color{
+    animation-name: efecto_color;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-delay: 0s;
 }

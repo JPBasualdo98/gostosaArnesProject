@@ -1,0 +1,9 @@
+@import '../variables/vars';
+
+.div_Contacto{
+    width: 800px;
+    height: 1200px;
+    background-color: $violetaOscuro;
+    display: flex;
+    justify-content: center;
+}

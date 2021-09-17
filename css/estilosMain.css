@@ -157,9 +157,43 @@
   border-radius: 5px;
 }
 
+.img_Move {
+  transition: transform 2s, border-style 2s ,border-color 4s;
+}
+
 .img_Move:hover {
   transform: translateY(-25px);
-  transition: 2s;
+  border-style: solid;
+  border-color: #d4079a;
+}
+
+@keyframes efecto_color {
+  0% {
+    color: blanchedalmond;
+  }
+  20% {
+    color: pink;
+  }
+  40% {
+    color: pink;
+  }
+  60% {
+    color: #d4079a;
+  }
+  80% {
+    color: #d4079a;
+  }
+  100% {
+    color: pink;
+  }
+}
+
+.efecto_Color, .efecto_Color_2 {
+  animation-name: efecto_color;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-duration: 1s;
+  animation-delay: 0s;
 }
 
 /* SECCIÓN GALERÍA */
@@ -252,23 +286,63 @@
 
 /* Tarjeta y clases de imgs */
 .tarjeta_Img_Doble {
-  height: 500px;
-  width: 800px;
+  height: 450px;
+  width: 750px;
   background-color: #1e001e;
   border-radius: 5px;
   transform: translateX(250px);
 }
 
+/* Animaciones */
+@keyframes efecto_color_2 {
+  0% {
+    border-color: blanchedalmond;
+    border-style: solid;
+  }
+  20% {
+    border-color: pink;
+    border-style: solid;
+  }
+  40% {
+    border-color: pink;
+    border-style: solid;
+  }
+  60% {
+    border-color: #d4079a;
+    border-style: solid;
+  }
+  80% {
+    border-color: #d4079a;
+    border-style: solid;
+  }
+  100% {
+    border-color: pink;
+    border-style: solid;
+  }
+}
+
+.efecto_Color_2 {
+  border-style: solid;
+  animation-duration: 4s;
+}
+
+.img_Move_2a {
+  transition: transform 2s;
+}
+
 .img_Move_2a:hover {
   transform: translateX(35px);
-  transition: 2s;
+}
+
+.img_Move_2b {
+  transition: transform 2s;
 }
 
 .img_Move_2b:hover {
   transform: translateX(-35px);
-  transition: 2s;
 }
 
+/* posicion de elementos */
 .align_Modelos {
   display: flex;
   justify-content: space-evenly;

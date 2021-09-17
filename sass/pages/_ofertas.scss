@@ -20,20 +20,40 @@
 }
 /* Tarjeta y clases de imgs */
 .tarjeta_Img_Doble{
-    height: 500px;
-    width: 800px;
+    height: 450px;
+    width: 750px;
     background-color: $violetaOscuro;
     border-radius: 5px;
     transform: translateX(250px);
 }
+/* Animaciones */
+@keyframes efecto_color_2{
+    0%{border-color: $blancoLetra;border-style: solid;}
+    20%{border-color: $rosaLink;border-style: solid;}
+    40%{border-color:$rosaLink;border-style: solid;}
+    60%{border-color: $violetaClaro_2;border-style: solid;}
+    80%{border-color: $violetaClaro_2;border-style: solid;}
+    100%{border-color:$rosaLink;border-style: solid;}
+}
+.efecto_Color_2{
+    @extend .efecto_Color;
+    border-style: solid;
+    animation-duration: 4s;
+}
+
+.img_Move_2a{
+    transition: transform 2s;
+}
 .img_Move_2a:hover{
     transform: translateX(35px);
-    transition: 2s;
+}
+.img_Move_2b{
+    transition: transform 2s;
 }
 .img_Move_2b:hover{
     transform: translateX(-35px);
-    transition: 2s;
 }
+/* posicion de elementos */
 .align_Modelos{
     display: flex;
     justify-content: space-evenly;
@@ -54,8 +74,7 @@
     transform: translateX(80px);
     background-color: $violetaClaro;
     height: 35px;
-    border-radius: 3px
-    ;
+    border-radius: 3px;
 }
 .lf_Box{
     transform: translateX(320px);
